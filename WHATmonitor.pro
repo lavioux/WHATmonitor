@@ -13,8 +13,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    exitpricecalculator.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    exitpricecalculator.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    exitpricecalculator.ui

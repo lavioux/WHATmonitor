@@ -12,3 +12,10 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_pushButton_clicked()
+{
+    hide();
+    exitPriceCalculator = new ExitPriceCalculator(this);
+    exitPriceCalculator->show();
+}
